@@ -3,6 +3,8 @@ public/stylesheets/*.css
 
 # No node packages
 node_modules/
+npm-debug.log
+log/*.log
 
 # OS generated files #
 .DS_Store
