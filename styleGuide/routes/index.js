@@ -6,4 +6,20 @@ router.get('/', function(req, res) {
   res.render('index', { title: 'Express' });
 });
 
+router.get('/grid', function(req, res) {
+  res.render('grid', { title: 'Grid & Layout' });
+});
+
+router.get('/color', function(req, res) {
+  res.render('color', { title: 'Color' });
+});
+
+router.get('/typography', function(req, res) {
+  res.render('typography', { title: 'Typography' });
+});
+
+router.get('/logo', function(req, res) {
+  res.render('logo', { title: 'Logo Usage' });
+});
+
 module.exports = router;
