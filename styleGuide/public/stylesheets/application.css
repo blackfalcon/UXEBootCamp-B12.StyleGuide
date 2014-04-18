@@ -1,7 +1,24 @@
-a {
-  font-size: 22.652px; }
+@font-face {
+  font-family: 'Rapture';
+  src: url('/fonts/Andes.eot');
+  /* IE9 Compat Modes */
+  src: url('/fonts/Andes.eot?#iefix') format('embedded-opentype'), url('fonts/Andes.woff') format('woff'), url('fonts/Andes.ttf') format('truetype'), url('/fonts/Andes.svg#d7a688ada3f6bc9fa6534898d49fc86e') format('svg');
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 400; }
 
 body {
-  background-color: pink; }
+  background: #f8ebc9;
+  font-size: 1rem; }
+
+.rapture {
+  font-family: 'Rapture';
+  font-size: 9rem;
+  letter-spacing: 8px;
+  text-shadow: 2px 2px 0px #23D9FF; }
+
+code {
+  font-family: Courier, monospace;
+  font-size: 12px; }
 
 /*# sourceMappingURL=application.css.map */
