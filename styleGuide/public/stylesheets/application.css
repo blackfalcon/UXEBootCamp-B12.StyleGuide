@@ -54,4 +54,47 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.page-wrap {
+  max-width: 90%;
+  margin: auto; }
+
+header, footer {
+  width: 100%;
+  display: block; }
+
+h1 {
+  font: 3em/1.5 helvetica;
+  text-align: center;
+  padding: 0.5em 0;
+  background: #333; }
+
+nav {
+  width: 100%;
+  background-color: #fff;
+  height: 4em;
+  line-height: 4em;
+  text-align: center; }
+
+ul, li {
+  margin: 0;
+  padding: 0; }
+
+li {
+  display: inline-block; }
+
+a {
+  display: inline-block;
+  padding: 0 1em; }
+
+footer {
+  line-height: 3em;
+  background-color: #1c1717;
+  color: #ffffff;
+  font-family: helvetica; }
+
 /*# sourceMappingURL=application.css.map */

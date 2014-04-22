@@ -4,15 +4,11 @@ html
     title= title
     link(rel='stylesheet', href='/stylesheets/application.css')
   body
-    a(href='/') HOME
-    br
-    a(href='/grid') GRID & LAYOUT
-    br
-    a(href='/color') COLOR
-    br
-    a(href='/typography') TYPOGRAPHY
-    br
-    a(href='/logo') LOGO
+  include header
+  h1= title
+  .page-wrap
     block content
+
+  include footer
 
     script(src='//localhost:35729/livereload.js')
