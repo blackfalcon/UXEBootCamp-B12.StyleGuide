@@ -1,0 +1,11 @@
+//Rapture fault, decrative, curly
+@font-face {
+  font-family: 'Rapture';
+  src: url('/fonts/Andes.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/Andes.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Andes.woff') format('woff'), /* Modern Browsers */
+       url('fonts/Andes.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/Andes.svg#d7a688ada3f6bc9fa6534898d49fc86e') format('svg'); /* Legacy iOS */
+  font-style:   normal;
+  font-weight:  400;
+}

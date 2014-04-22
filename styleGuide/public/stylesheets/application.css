@@ -1,7 +1,100 @@
-a {
-  font-size: 22.652px; }
+body {
+  background: #f8ebc9;
+  font-size: 1rem; }
+
+.rapture {
+  font-family: 'Rapture';
+  font-size: 9rem;
+  letter-spacing: 8px;
+  text-shadow: 2px 2px 0px #23D9FF; }
+
+code {
+  font-family: Courier, monospace;
+  font-size: 12px; }
+
+@font-face {
+  font-family: 'Rapture';
+  src: url('/fonts/Andes.eot');
+  /* IE9 Compat Modes */
+  src: url('/fonts/Andes.eot?#iefix') format('embedded-opentype'), url('fonts/Andes.woff') format('woff'), url('fonts/Andes.ttf') format('truetype'), url('/fonts/Andes.svg#d7a688ada3f6bc9fa6534898d49fc86e') format('svg');
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 400; }
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
 
 body {
-  background-color: pink; }
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.page-wrap {
+  max-width: 90%;
+  margin: auto; }
+
+header, footer {
+  width: 100%;
+  display: block; }
+
+h1 {
+  font: 3em/1.5 helvetica;
+  text-align: center;
+  padding: 0.5em 0;
+  background: #333; }
+
+nav {
+  width: 100%;
+  background-color: #fff;
+  height: 4em;
+  line-height: 4em;
+  text-align: center; }
+
+ul, li {
+  margin: 0;
+  padding: 0; }
+
+li {
+  display: inline-block; }
+
+a {
+  display: inline-block;
+  padding: 0 1em; }
+
+footer {
+  line-height: 3em;
+  background-color: #1c1717;
+  color: #ffffff;
+  font-family: helvetica; }
 
 /*# sourceMappingURL=application.css.map */

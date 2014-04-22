@@ -1,9 +1,8 @@
 @import "bourbon";
-
-a{
-  font-size: golden-ratio(14px,  1);
-}
-
-body{
-  background-color: pink;
-}
+@import "variables";
+//@import "mixins";
+@import "base";
+//@import "modules";
+@import "fonts";
+@import "reset";
+@import "layout";

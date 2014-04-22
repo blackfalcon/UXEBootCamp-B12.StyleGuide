@@ -1,4 +1,13 @@
 extends layout
 
 block content
-  h1 THIS IS THE TYPOGRAPHY PAGE
+  p This is the decrative Rapture font:
+  .rapture
+    p Rapture
+
+  p= 'This is a code' + '<h1>example</h1>'
+  pre.
+    .rapture {
+    font-family: Rapture;
+    text-shadow: foo;
+    }
