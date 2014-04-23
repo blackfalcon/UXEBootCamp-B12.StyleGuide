@@ -1,8 +1,14 @@
-# Generated CSS output
+# Generated CSS output #
 public/stylesheets/*.css
 
-# No node packages
+# Sass #
+.sass-cache
+
+# No node packages #
 node_modules/
+
+# No bower packages #
+bower_components/
 
 # OS generated files #
 .DS_Store
@@ -13,3 +19,5 @@ node_modules/
 ehthumbs.db
 Thumbs.db
 
+# Logs #
+*.log

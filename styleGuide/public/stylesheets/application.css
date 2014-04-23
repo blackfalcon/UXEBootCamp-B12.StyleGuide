@@ -3,10 +3,10 @@ body {
   font-size: 1rem; }
 
 .rapture {
-  font-family: 'Rapture';
+  font-family: 'katie', 'Rapture', helvetica;
   font-size: 9rem;
   letter-spacing: 8px;
-  text-shadow: 2px 2px 0px #23D9FF; }
+  text-shadow: 12px 2px 0px #f00; }
 
 code {
   font-family: Courier, monospace;
@@ -17,6 +17,15 @@ code {
   src: url('/fonts/Andes.eot');
   /* IE9 Compat Modes */
   src: url('/fonts/Andes.eot?#iefix') format('embedded-opentype'), url('fonts/Andes.woff') format('woff'), url('fonts/Andes.ttf') format('truetype'), url('/fonts/Andes.svg#d7a688ada3f6bc9fa6534898d49fc86e') format('svg');
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 400; }
+
+@font-face {
+  font-family: 'katie';
+  src: url('katie/From Cartoon Blocks.eot');
+  /* IE9 Compat Modes */
+  src: url('katie/From Cartoon Blocks.eot?#iefix') format('embedded-opentype'), url('katie/From Cartoon Blocks.woff') format('woff'), url('katie/From Cartoon Blocks.ttf') format('truetype'), url('katie/From Cartoon Blocks.svg#f02e56980cef1be2d9d050a961213450') format('svg');
   /* Legacy iOS */
   font-style: normal;
   font-weight: 400; }

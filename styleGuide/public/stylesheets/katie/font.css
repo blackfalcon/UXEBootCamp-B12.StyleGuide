@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'katie';
+  src: url('From Cartoon Blocks.eot'); /* IE9 Compat Modes */
+  src: url('From Cartoon Blocks.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('From Cartoon Blocks.woff') format('woff'), /* Modern Browsers */
+       url('From Cartoon Blocks.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('From Cartoon Blocks.svg#f02e56980cef1be2d9d050a961213450') format('svg'); /* Legacy iOS */
+
+  font-style:   normal;
+  font-weight:  400;
+}
+
