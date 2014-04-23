@@ -79,7 +79,6 @@ header, footer {
 h1 {
   width: 40%;
   font: 3em/1.5 helvetica;
-  background-color: yellow;
   text-align: left;
   color: #333;
   padding: 0 0 0 0.3em;
@@ -89,7 +88,6 @@ h1 {
 
 nav {
   width: 60%;
-  background-color: pink;
   padding: 0.5em;
   display: inline-block;
   line-height: 2em;
