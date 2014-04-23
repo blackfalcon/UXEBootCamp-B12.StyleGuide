@@ -1,5 +1,5 @@
 # Generated CSS output #
-public/stylesheets/*.css
+# public/stylesheets/*.css
 
 # Sass #
 .sass-cache
