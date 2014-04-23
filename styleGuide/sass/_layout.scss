@@ -9,8 +9,6 @@
   margin: auto;
 }
 
-
-
 header,
 footer {
   width: 100%;
@@ -18,31 +16,34 @@ footer {
 }
 
 h1 {
+  width: 40%;
   font: 3em/1.5 helvetica;
-  text-align: center;
-  padding: .5em 0;
-  background: #333;
+  text-align: left;
+  color: $grey;
+  padding: .3em .5em .5em .5em;
+  text-transform:uppercase;
+  display: inline-block;
+  vertical-align: top;
 }
 
 nav {
-  width: 100%;
-  background-color: #fff;
-  height: 4em;
-  line-height: 4em;
-  text-align: center;
-
-}
-
-ul, li {
-  margin: 0;
-  padding: 0;
-
-}
-
-li {
+  width: 60%;
   display: inline-block;
+  // height: 4em;
+  line-height: 2em;
+  text-align: right;
+  vertical-align: top;
+  a{
+        font-family: helvetica;
+        color: $grey;
+        font-size: 1em;
+        text-transform:uppercase;
+        text-decoration: none;
+      }
+      a:hover{
+        color: $navHover;
+  }
 }
-
 
 a {
   display: inline-block;
@@ -51,7 +52,10 @@ a {
 
 footer {
   line-height: 3em;
-  background-color: $charcoal;
+  font-size: .8em;
+  background-color: $grey;
   color: $white;
   font-family: helvetica;
+  text-align: center;
+  text-transform:uppercase;
 }
