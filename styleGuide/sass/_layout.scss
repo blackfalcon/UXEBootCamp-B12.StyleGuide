@@ -18,9 +18,10 @@ footer {
 h1 {
   width: 40%;
   font: 3em/1.5 helvetica;
+  background-color: yellow;
   text-align: left;
   color: $grey;
-  padding: .3em .5em .5em .5em;
+  padding: 0 0 0 .3em;
   text-transform:uppercase;
   display: inline-block;
   vertical-align: top;
@@ -28,15 +29,16 @@ h1 {
 
 nav {
   width: 60%;
+  background-color: pink;
+  padding: 0.5em;
   display: inline-block;
-  // height: 4em;
   line-height: 2em;
   text-align: right;
   vertical-align: top;
   a{
         font-family: helvetica;
         color: $grey;
-        font-size: 1em;
+        font-size: 0.8em;
         text-transform:uppercase;
         text-decoration: none;
       }

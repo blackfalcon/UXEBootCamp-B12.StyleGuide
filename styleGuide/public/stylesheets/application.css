@@ -79,15 +79,18 @@ header, footer {
 h1 {
   width: 40%;
   font: 3em/1.5 helvetica;
+  background-color: yellow;
   text-align: left;
   color: #333;
-  padding: 0.3em 0.5em 0.5em 0.5em;
+  padding: 0 0 0 0.3em;
   text-transform: uppercase;
   display: inline-block;
   vertical-align: top; }
 
 nav {
   width: 60%;
+  background-color: pink;
+  padding: 0.5em;
   display: inline-block;
   line-height: 2em;
   text-align: right;
@@ -95,7 +98,7 @@ nav {
   nav a {
     font-family: helvetica;
     color: #333;
-    font-size: 1em;
+    font-size: 0.8em;
     text-transform: uppercase;
     text-decoration: none; }
   nav a:hover {
