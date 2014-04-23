@@ -1,4 +1,4 @@
-# Generated CSS output
+# Generated CSS output #
 public/stylesheets/*.css
 
 # No node packages
@@ -13,3 +13,5 @@ node_modules/
 ehthumbs.db
 Thumbs.db
 
+# Logs #
+*.log
