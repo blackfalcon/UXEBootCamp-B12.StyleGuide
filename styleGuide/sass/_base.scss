@@ -14,3 +14,20 @@ code {
   font-family: Courier, monospace;
   font-size: 12px;
 }
+
+@for $i from 1 through length($swatchColors) {
+  .swatch li:nth-child(#{$i}) {
+    width: 10em;
+    font-family: Courier;
+    height: 10em;
+    display: inline-block;
+    background-color: nth($swatchColors, $i);
+    @if $swatchColors == $white{
+      color: $white;
+    }
+    @else{
+      color: $grey;
+    }
+  }
+}
+
