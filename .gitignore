@@ -1,6 +1,9 @@
 # Generated CSS output #
 public/stylesheets/*.css
 
+# Sass #
+.sass-cache
+
 # No node packages #
 node_modules/
 
