@@ -1,19 +1,25 @@
 // Base Color Pallete
-$darkblue     :    #0A466D;
-$lightblue    :    #0E819B;
-$darkred      :    #591710;
-$lightred     :    #b02220;
+$dark-blue    :    #0A466D;
+$light-blue   :    #0E819B;
+$dark-red     :    #591710;
+$light-red    :    #b02220;
 $cream        :    #f8ebc9;
 $white        :    #ffffff;
 $brown        :    #3c3231;
 $charcoal     :    #1c1717;
-$navHover     :    #669999;
+$nav-hover    :    #669999;
 $grey         :    #333;
 
 //$font-primary: 'Merriweather';
 $font-rapture: 'Rapture';
 $font-katie: 'katie';
+$font-x: 'x';
 //$font-secondary: Bree Serif, serif;
 
 //lists
-$swatchColors: $darkblue, $lightblue, $darkred, $lightred, $cream, $white, $brown, $charcoal ;
+$swatchColors: $dark-blue, $light-blue, $dark-red, $light-red, $cream, $white, $brown, $charcoal ;
+
+$swatchNames: dark-blue, light-blue, dark-red, light-red, cream, white, brown, charcoal ;
+
+
+

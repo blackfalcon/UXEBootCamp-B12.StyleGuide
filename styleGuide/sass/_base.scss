@@ -14,20 +14,67 @@ code {
   font-family: Courier, monospace;
   font-size: 12px;
 }
+.swatch ul{
+  text-align: center;
+  // width: 90%;
+  // margin: 0 auto;
+}
 
 @for $i from 1 through length($swatchColors) {
   .swatch li:nth-child(#{$i}) {
-    width: 10em;
+    width: 13em;
     font-family: Courier;
-    height: 10em;
+    padding: 1.5em;
+    border-radius:0px;
+    height: 6em;
+    line-height: 120%;
+    // box-shadow:
+    margin: 2em;
+    border: 1px #ccc solid;
     display: inline-block;
     background-color: nth($swatchColors, $i);
-    @if $swatchColors == $white{
-      color: $white;
+    @if nth($swatchColors, $i) == $white or nth($swatchColors, $i) == $cream{
+      color: $grey;
     }
     @else{
-      color: $grey;
+      color: $white;
     }
   }
 }
+
+.usage {
+  ul{
+    text-align: center;
+  }
+  display: inline-block;
+  font-family: courier;
+  li{
+    width: 30em;
+    margin: 2em;
+    outline: 1px solid;
+    padding: 2em;
+    vertical-align: middle;
+  }
+}
+
+@each $color in $swatchNames{
+  .#{$color} {
+    font-family: helvetica;
+    background-color: unquote("$"+(#{$color}));
+  }
+}
+
+section{
+  width: 90%;
+  background-color: $white;
+}
+
+// @each $colorName in $swatchNames{
+//   .#{$colorName} {
+//     @each $color in $colorSwatches{
+//       background-color: #{$color};
+//     }
+//   }
+// }
+
 

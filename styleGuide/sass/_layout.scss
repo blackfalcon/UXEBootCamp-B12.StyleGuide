@@ -17,12 +17,22 @@ footer {
 
 h1 {
   width: 40%;
-  font: 3em/1.5 helvetica;
+  font: 3em/1.5 oswald;
   text-align: left;
   color: $grey;
   padding: 0 0 0 .3em;
   text-transform:uppercase;
   display: inline-block;
+  vertical-align: top;
+}
+
+h2{
+  font: 1.5em oswald;
+  text-align: left;
+  margin: 2em 2em 0em 2em;
+  color: $grey;
+  text-transform:uppercase;
+  display: block;
   vertical-align: top;
 }
 
@@ -34,14 +44,14 @@ nav {
   text-align: right;
   vertical-align: top;
   a{
-        font-family: helvetica;
+        font-family: oswald;
         color: $grey;
         font-size: 0.8em;
         text-transform:uppercase;
         text-decoration: none;
       }
       a:hover{
-        color: $navHover;
+        color: $nav-hover;
   }
 }
 
@@ -55,11 +65,7 @@ footer {
   font-size: .8em;
   background-color: $grey;
   color: $white;
-  font-family: helvetica;
+  font-family: oswald;
   text-align: center;
   text-transform:uppercase;
-}
-
-swatch{
-
 }

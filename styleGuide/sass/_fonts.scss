@@ -21,3 +21,28 @@
   font-style:   normal;
   font-weight:  400;
 }
+
+@font-face {
+  font-family: 'x';
+  src: url('bougan/Bougan SSi.eot'); /* IE9 Compat Modes */
+  src: url('bougan/Bougan SSi.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('bougan/Bougan SSi.woff') format('woff'), /* Modern Browsers */
+       url('bougan/Bougan SSi.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('bougan/Bougan SSi.svg#710eac5c76f309021d3a62d130af16bd') format('svg'); /* Legacy iOS */
+
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('oswald/Oswald-Regular.eot'); /* IE9 Compat Modes */
+  src: url('oswald/Oswald-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('oswald/Oswald-Regular.woff') format('woff'), /* Modern Browsers */
+       url('oswald/Oswald-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('oswald/Oswald-Regular.svg#d67d554191d502d9670fbfbb34cee6cd') format('svg'); /* Legacy iOS */
+
+  font-style:   normal;
+  font-weight:  400;
+}
+
