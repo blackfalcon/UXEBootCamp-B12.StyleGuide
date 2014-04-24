@@ -1,11 +1,13 @@
-//Rapture fault, decrative, curly
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);git
+
 @font-face {
-  font-family: 'Rapture';
-  src: url('/fonts/Andes.eot'); /* IE9 Compat Modes */
-  src: url('/fonts/Andes.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/Andes.woff') format('woff'), /* Modern Browsers */
-       url('fonts/Andes.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('/fonts/Andes.svg#d7a688ada3f6bc9fa6534898d49fc86e') format('svg'); /* Legacy iOS */
+  font-family: 'x';
+  src: url('bougan/Bougan SSi.eot'); /* IE9 Compat Modes */
+  src: url('bougan/Bougan SSi.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('bougan/Bougan SSi.woff') format('woff'), /* Modern Browsers */
+       url('bougan/Bougan SSi.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('bougan/Bougan SSi.svg#710eac5c76f309021d3a62d130af16bd') format('svg'); /* Legacy iOS */
+
   font-style:   normal;
   font-weight:  400;
 }
