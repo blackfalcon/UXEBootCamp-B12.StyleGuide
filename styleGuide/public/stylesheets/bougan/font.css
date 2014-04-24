@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'x';
+  src: url('Bougan SSi.eot'); /* IE9 Compat Modes */
+  src: url('Bougan SSi.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Bougan SSi.woff') format('woff'), /* Modern Browsers */
+       url('Bougan SSi.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Bougan SSi.svg#710eac5c76f309021d3a62d130af16bd') format('svg'); /* Legacy iOS */
+
+  font-style:   normal;
+  font-weight:  400;
+}
+
