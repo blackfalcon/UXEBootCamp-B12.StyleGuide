@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Andes';
+  src: url('Andes.eot'); /* IE9 Compat Modes */
+  src: url('Andes.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Andes.woff') format('woff'), /* Modern Browsers */
+       url('Andes.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Andes.svg#d7a688ada3f6bc9fa6534898d49fc86e') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
