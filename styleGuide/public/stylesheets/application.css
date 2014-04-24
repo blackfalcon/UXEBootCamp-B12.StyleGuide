@@ -12,6 +12,70 @@ code {
   font-family: Courier, monospace;
   font-size: 12px; }
 
+.swatch li:nth-child(1) {
+  width: 10em;
+  font-family: Courier;
+  height: 10em;
+  display: inline-block;
+  background-color: #0A466D;
+  color: #333; }
+
+.swatch li:nth-child(2) {
+  width: 10em;
+  font-family: Courier;
+  height: 10em;
+  display: inline-block;
+  background-color: #0E819B;
+  color: #333; }
+
+.swatch li:nth-child(3) {
+  width: 10em;
+  font-family: Courier;
+  height: 10em;
+  display: inline-block;
+  background-color: #591710;
+  color: #333; }
+
+.swatch li:nth-child(4) {
+  width: 10em;
+  font-family: Courier;
+  height: 10em;
+  display: inline-block;
+  background-color: #b02220;
+  color: #333; }
+
+.swatch li:nth-child(5) {
+  width: 10em;
+  font-family: Courier;
+  height: 10em;
+  display: inline-block;
+  background-color: #f8ebc9;
+  color: #333; }
+
+.swatch li:nth-child(6) {
+  width: 10em;
+  font-family: Courier;
+  height: 10em;
+  display: inline-block;
+  background-color: #ffffff;
+  color: #333; }
+
+.swatch li:nth-child(7) {
+  width: 10em;
+  font-family: Courier;
+  height: 10em;
+  display: inline-block;
+  background-color: #3c3231;
+  color: #333; }
+
+.swatch li:nth-child(8) {
+  width: 10em;
+  font-family: Courier;
+  height: 10em;
+  display: inline-block;
+  background-color: #1c1717;
+  color: #333; }
+
 @font-face {
   font-family: 'Rapture';
   src: url('/fonts/Andes.eot');
