@@ -69,13 +69,15 @@ section{
   text-align: center;
   img{
     text-align: center;
-    width: 15em;
+    width: 20em;
     padding: 2em;
   }
 }
 
 .whiteLogo{
-  background-color: $grey;
+  img{
+    background-color: $grey;
+  }
 }
 
 // @each $colorName in $swatchNames{

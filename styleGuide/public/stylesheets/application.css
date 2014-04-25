@@ -126,10 +126,10 @@ section {
   text-align: center; }
   .logo img {
     text-align: center;
-    width: 15em;
+    width: 20em;
     padding: 2em; }
 
-.whiteLogo {
+.whiteLogo img {
   background-color: #333333; }
 
 /* http://meyerweb.com/eric/tools/css/reset/
