@@ -1,3 +1,4 @@
+// REVIEW
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -15,27 +16,6 @@ footer {
   display: block;
 }
 
-h1 {
-  width: 40%;
-  font: 3em/1.5 Oswald;
-  text-align: left;
-  color: $grey;
-  padding: 0 0 0 .3em;
-  text-transform:uppercase;
-  display: inline-block;
-  vertical-align: top;
-}
-
-h2{
-  font: 1.5em Oswald;
-  text-align: left;
-  padding-top: 2em;
-  color: $grey;
-  text-transform:uppercase;
-  display: block;
-  vertical-align: top;
-}
-
 nav {
   width: 60%;
   padding: 0.5em;
@@ -43,33 +23,13 @@ nav {
   line-height: 2em;
   text-align: right;
   vertical-align: top;
-  a{
-        font-family: Oswald;
-        color: $grey;
-        font-size: 0.8em;
-        text-transform:uppercase;
-        text-decoration: none;
-      }
-      a:hover{
-        color: $nav-hover;
-  }
 }
 
-a {
-  display: inline-block;
-  padding: 0 1em;
+section{
+  margin: 0 auto;
+  width: 100%;
 }
 
-footer {
-  line-height: 3em;
-  font-size: .8em;
-  background-color: $grey;
-  color: $white;
-  font-family: Oswald;
+.swatch ul{
   text-align: center;
-  text-transform:uppercase;
-  a{
-    color: $white;
-    text-decoration: none;
-  }
 }
