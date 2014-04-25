@@ -19,7 +19,7 @@ router.get('/typography', function(req, res) {
 });
 
 router.get('/logo', function(req, res) {
-  res.render('logo', { title: 'Logo Usage' });
+  res.render('logo', { title: 'Logo' });
 });
 
 module.exports = router;
