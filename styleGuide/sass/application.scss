@@ -1,9 +1,11 @@
 @import "bourbon";
+@import "reset";
 @import "variables";
+@import "directives";
 @import "fonts";
 //@import "mixins";
+
 @import "base";
 //@import "modules";
 
-@import "reset";
 @import "layout";
