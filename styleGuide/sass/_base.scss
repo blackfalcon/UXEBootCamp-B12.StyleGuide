@@ -60,14 +60,22 @@ code {
 section{
   margin: 0 auto;
   width: 100%;
-  background-color: #ccc;
+  // background-color: #ccc;
 }
 
 .logo{
+  margin: 0 auto;
+  width: 40%;
   text-align: center;
   img{
-    height: 10em;
+    text-align: center;
+    width: 15em;
+    padding: 2em;
   }
+}
+
+.whiteLogo{
+  background-color: $grey;
 }
 
 // @each $colorName in $swatchNames{
