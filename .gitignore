@@ -1,10 +1,17 @@
-# Generated CSS output
+# Generated CSS output #
 public/stylesheets/*.css
+public/stylesheets/application.css.map
 
-# No node packages
+# Sass #
+.sass-cache
+
+# No node packages #
 node_modules/
 npm-debug.log
 log/*.log
+
+# No bower packages #
+#bower_components/
 
 # OS generated files #
 .DS_Store
@@ -15,3 +22,5 @@ log/*.log
 ehthumbs.db
 Thumbs.db
 
+# Logs #
+*.log

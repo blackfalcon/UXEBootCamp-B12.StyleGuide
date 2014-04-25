@@ -8,9 +8,7 @@ module.exports = function(grunt) {
         options: {
           sourceComments: "map",
           includePaths: [
-            './bower_components/bower-bourbon',
-            './bower_components/color-scale',
-            './bower_components/type-rhythm-scale'
+            './bower_components/bower-bourbon'
           ]
         }
       }
@@ -29,4 +27,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-sass');
   grunt.registerTask('default', ['sass']);
+  grunt.registerTask('default', 'watch');
 };
