@@ -116,53 +116,15 @@ code {
   background-color: #1c1717;
   color: #ffffff; }
 
-.usage {
-  display: inline-block;
-  font-family: courier; }
-  .usage ul {
-    text-align: center; }
-  .usage li {
-    width: 30em;
-    margin: 2em;
-    outline: 1px solid;
-    padding: 2em;
-    vertical-align: middle; }
-
-.dark-blue {
-  font-family: helvetica;
-  background-color: $dark-blue; }
-
-.light-blue {
-  font-family: helvetica;
-  background-color: $light-blue; }
-
-.dark-red {
-  font-family: helvetica;
-  background-color: $dark-red; }
-
-.light-red {
-  font-family: helvetica;
-  background-color: $light-red; }
-
-.cream {
-  font-family: helvetica;
-  background-color: $cream; }
-
-.white {
-  font-family: helvetica;
-  background-color: $white; }
-
-.brown {
-  font-family: helvetica;
-  background-color: $brown; }
-
-.charcoal {
-  font-family: helvetica;
-  background-color: $charcoal; }
-
 section {
-  width: 90%;
-  background-color: #ffffff; }
+  margin: 0 auto;
+  width: 100%;
+  background-color: #ccc; }
+
+.logo {
+  text-align: center; }
+  .logo img {
+    height: 10em; }
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -257,5 +219,8 @@ footer {
   font-family: Oswald;
   text-align: center;
   text-transform: uppercase; }
+  footer a {
+    color: #ffffff;
+    text-decoration: none; }
 
 /*# sourceMappingURL=application.css.map */

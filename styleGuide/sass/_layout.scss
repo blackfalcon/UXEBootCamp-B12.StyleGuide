@@ -68,4 +68,8 @@ footer {
   font-family: Oswald;
   text-align: center;
   text-transform:uppercase;
+  a{
+    color: $white;
+    text-decoration: none;
+  }
 }

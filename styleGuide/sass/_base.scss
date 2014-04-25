@@ -35,31 +35,39 @@ code {
   }
 }
 
-.usage {
-  ul{
-    text-align: center;
-  }
-  display: inline-block;
-  font-family: courier;
-  li{
-    width: 30em;
-    margin: 2em;
-    outline: 1px solid;
-    padding: 2em;
-    vertical-align: middle;
-  }
-}
+// .usage {
+//   ul{
+//     text-align: center;
+//   }
+//   display: inline-block;
+//   font-family: courier;
+//   li{
+//     width: 30em;
+//     margin: 2em;
+//     outline: 1px solid;
+//     padding: 2em;
+//     vertical-align: middle;
+//   }
+// }
 
-@each $color in $swatchNames{
-  .#{$color} {
-    font-family: helvetica;
-    background-color: unquote("$"+(#{$color}));
-  }
-}
+// @each $color in $swatchNames{
+//   .#{$color} {
+//     font-family: helvetica;
+//     background-color: unquote("$"+(#{$color}));
+//   }
+// }
 
 section{
-  width: 90%;
-  background-color: $white;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #ccc;
+}
+
+.logo{
+  text-align: center;
+  img{
+    height: 10em;
+  }
 }
 
 // @each $colorName in $swatchNames{
@@ -69,5 +77,6 @@ section{
 //     }
 //   }
 // }
+
 
 
