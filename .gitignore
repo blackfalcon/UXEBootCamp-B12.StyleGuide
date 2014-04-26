@@ -1,15 +1,15 @@
 # Generated CSS output #
-public/stylesheets/*.css
-public/stylesheets/application.css.map
+styleGuide/public/stylesheets/*.css
+styleGuide/public/stylesheets/application.css.map
 
 # Sass #
 .sass-cache
 
 # No node packages #
-node_modules/
+styleGuide/node_modules/
 
 # No bower packages #
-#bower_components/
+styleGuide/bower_components/
 
 # OS generated files #
 .DS_Store
