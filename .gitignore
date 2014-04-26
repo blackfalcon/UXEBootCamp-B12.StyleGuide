@@ -1,6 +1,6 @@
 # Generated CSS output #
-public/stylesheets/*.css
-public/stylesheets/application.css.map
+styleGuide/public/stylesheets/*.css
+styleGuide/public/stylesheets/application.css.map
 
 # Sass #
 .sass-cache
