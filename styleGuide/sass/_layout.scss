@@ -77,24 +77,24 @@ section{
 
 }
 
-  .swatch li {
+  // .swatch li {
 
-    width: 8em;
-    height:8em;
-    margin: 1em;
-    padding:1em;
-    border-radius: 100%;
-    line-height: 1;
-    display: inline-block;
-    vertical-align: top;
-    @include media($desktop) {
-      width: 25%;
-      border-radius: 0;
-      display: inline-block;
-    }
+  //   width: 8em;
+  //   height:8em;
+  //   margin: 1em;
+  //   padding:1em;
+  //   border-radius: 100%;
+  //   line-height: 1;
+  //   display: inline-block;
+  //   vertical-align: top;
+  //   @include media($desktop) {
+  //     width: 25%;
+  //     border-radius: 0;
+  //     display: inline-block;
+  //   }
 
-  }
+  // }
 
-  .swatch li p {
-      vertical-align: center;
-  }
+  // .swatch li p {
+  //     vertical-align: center;
+  // }
