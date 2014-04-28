@@ -26,14 +26,14 @@ code {
 }
 
 h1 {
-  width: 40%;
+  //width: 40%;
   font: 3em/1.5 Oswald;
   text-align: left;
   color: $grey;
   padding: 0 0 0 .3em;
   text-transform:uppercase;
   display: inline-block;
-  vertical-align: top;
+  //vertical-align: top;
 }
 
 h2{
@@ -68,11 +68,11 @@ nav{
   a{
       font-family: Oswald;
       color: $grey;
-      font-size: 0.8em;
+      font-size: 0.6em;
       text-transform:uppercase;
       text-decoration: none;
     }
-    a:hover{
+    &:hover{
       color: $nav-hover;
 }
 }
@@ -99,13 +99,19 @@ nav{
 
 .fonts{
 
+
 }
 
 .headings{
 
+
 }
 
 .weights{
+
+}
+
+li {
 
 }
 
