@@ -39,11 +39,10 @@ h1 {
 h2{
   font: 1.5em Oswald;
   text-align: left;
-  padding-top: 2em;
+  line-height: 3;
   color: $grey;
   text-transform:uppercase;
-  display: block;
-  vertical-align: top;
+
 }
 
 a {
@@ -113,3 +112,7 @@ nav{
 pre{
   white-space: pre;
 }
+
+// section:last-of-type h2{
+//   color: red;
+// }

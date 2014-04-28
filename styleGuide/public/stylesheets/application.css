@@ -1,11 +1,11 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,800italic,400,700,600,800);
+@import url(http://fonts.googleapis.com/css?family=Domine:400,700);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,800italic,400,700,600,800);
-@import url(http://fonts.googleapis.com/css?family=Domine:400,700);
-@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -176,11 +176,9 @@ h1 {
 h2 {
   font: 1.5em Oswald;
   text-align: left;
-  padding-top: 2em;
+  line-height: 3;
   color: #333333;
-  text-transform: uppercase;
-  display: block;
-  vertical-align: top; }
+  text-transform: uppercase; }
 
 a {
   display: inline-block;
@@ -233,25 +231,41 @@ pre {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+
 .page-wrap {
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 90%;
-  margin: auto; }
+  padding-top: 3em; }
+  .page-wrap:before, .page-wrap:after {
+    content: " ";
+    display: table; }
+  .page-wrap:after {
+    clear: both; }
 
 header, footer {
   width: 100%;
   display: block; }
 
+header {
+  background: silver;
+  position: fixed; }
+
 nav {
   width: 60%;
-  padding: 0.5em;
   display: inline-block;
   line-height: 2em;
   text-align: right;
-  vertical-align: top; }
+  background: red; }
 
 section {
   margin: 0 auto;
   width: 100%; }
+  section:last-of-type {
+    background-color: red;
+    margin-bottom: 1em; }
 
 .swatch ul {
   text-align: center; }

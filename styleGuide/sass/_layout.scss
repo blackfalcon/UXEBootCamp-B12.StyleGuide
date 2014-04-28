@@ -1,13 +1,17 @@
 // REVIEW
 *, *:before, *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  @include box-sizing(border-box);
 }
 
+body {
+
+}
+
+// Neat MAY remove neat for page wrap
 .page-wrap {
+  @include outer-container;
   max-width: 90%;
-  margin: auto;
+  padding-top: 3em;
 }
 
 header,
@@ -16,18 +20,31 @@ footer {
   display: block;
 }
 
+header {
+  background: silver;
+  position: fixed;
+}
+
 nav {
   width: 60%;
-  padding: 0.5em;
+  //padding: 0.5em;
   display: inline-block;
   line-height: 2em;
   text-align: right;
-  vertical-align: top;
+  //vertical-align: top;
+  // Testing Neat
+  background: red;
+
 }
 
 section{
   margin: 0 auto;
   width: 100%;
+
+  &:last-of-type {
+  background-color: red;
+  margin-bottom: 1em;
+  }
 }
 
 .swatch ul{
