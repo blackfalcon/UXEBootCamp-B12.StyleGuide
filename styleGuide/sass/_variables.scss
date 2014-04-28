@@ -1,16 +1,11 @@
-//Begin Team Node Style Guide variables
+@import "client";
 
 $font-body: 'helvetica';
-
-//lists
-$swatchColors: $dark-blue, $light-blue, $dark-red, $light-red, $cream, $white, $brown, $charcoal ;
-
-$swatchNames: dark-blue, light-blue, dark-red, light-red, cream, white, brown, charcoal;
 
 // Media Queries
 
 $mobile-size:em(320);
-$tablet-size:720px;
+$tablet-size:em(720);
 $desktop-size:em(960);
 $largedesktop-size:em(1050);
 
