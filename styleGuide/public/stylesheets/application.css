@@ -241,4 +241,22 @@ section {
 .swatch ul {
   text-align: center; }
 
+.swatch li {
+  width: 8em;
+  height: 8em;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 100%;
+  line-height: 1;
+  display: inline-block;
+  vertical-align: top; }
+  @media screen and (min-width: 60em) {
+    .swatch li {
+      width: 25%;
+      border-radius: 0;
+      display: inline-block; } }
+
+.swatch li p {
+  vertical-align: center; }
+
 /*# sourceMappingURL=application.css.map */
