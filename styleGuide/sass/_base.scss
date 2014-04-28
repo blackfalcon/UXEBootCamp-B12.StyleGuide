@@ -26,24 +26,23 @@ code {
 }
 
 h1 {
-  width: 40%;
+  //width: 40%;
   font: 3em/1.5 Oswald;
   text-align: left;
   color: $grey;
   padding: 0 0 0 .3em;
   text-transform:uppercase;
   display: inline-block;
-  vertical-align: top;
+  //vertical-align: top;
 }
 
 h2{
   font: 1.5em Oswald;
   text-align: left;
-  padding-top: 2em;
+  line-height: 3;
   color: $grey;
   text-transform:uppercase;
-  display: block;
-  vertical-align: top;
+
 }
 
 a {
@@ -69,11 +68,11 @@ nav{
   a{
       font-family: Oswald;
       color: $grey;
-      font-size: 0.8em;
+      font-size: 0.6em;
       text-transform:uppercase;
       text-decoration: none;
     }
-    a:hover{
+    &:hover{
       color: $nav-hover;
 }
 }
@@ -100,9 +99,11 @@ nav{
 
 .fonts{
 
+
 }
 
 .headings{
+
 
 }
 
@@ -110,6 +111,14 @@ nav{
 
 }
 
+li {
+
+}
+
 pre{
   white-space: pre;
 }
+
+// section:last-of-type h2{
+//   color: red;
+// }
