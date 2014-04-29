@@ -3,8 +3,9 @@ header {
   position: fixed;
 }
 
-footer {
-  width: 100%;
+.page-wrapper{
+  @include outer-container;
+  // background-color: pink;
 }
 
 // Navigation
@@ -13,6 +14,7 @@ footer {
   height: 100%;
   min-height: 100%;
   padding-top: 6.5em;
+  clear: both;
 }
 
 #home {
@@ -33,4 +35,24 @@ footer {
 
 
 // Logo
-.logo {}
+.white-logo{
+    background-color: #ccc;
+}
+
+figure{
+  @include media($desktop){
+    @include span-columns(3);
+  }
+  @include media($tablet){
+    @include span-columns(4);
+  }
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  width: 100%;
+}
