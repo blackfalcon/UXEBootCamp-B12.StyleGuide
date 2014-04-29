@@ -136,31 +136,26 @@ a {
 
 header {
   width: 100%;
-  position: fixed;
-  background: silver; }
+  position: fixed; }
 
 footer {
   width: 100%; }
 
 #home {
   height: 100%;
-  min-height: 100%;
-  background-color: yellow; }
+  min-height: 100%; }
 
 #logo {
   height: 100%;
-  min-height: 100%;
-  background-color: salmon; }
+  min-height: 100%; }
 
 #color {
   height: 100%;
-  min-height: 100%;
-  background-color: teal; }
+  min-height: 100%; }
 
 #typography {
   height: 100%;
-  min-height: 100%;
-  background-color: blue; }
+  min-height: 100%; }
 
 
 /*# sourceMappingURL=application.css.map */
