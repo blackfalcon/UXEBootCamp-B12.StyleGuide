@@ -3,78 +3,122 @@ body {
   font-size: 1rem;
 }
 
-.rapture {
-  font-family: $font-katie, $font-rapture, helvetica;
-  font-size: 9rem;
-  letter-spacing: 8px;
-  text-shadow: 12px 2px 0px #f00;
-}
-
 code {
   font-family: Courier, monospace;
   font-size: 12px;
 }
-.swatch ul{
+
+.logo{
+  margin: 0 auto;
+  width: 40%;
   text-align: center;
-  // width: 90%;
-  // margin: 0 auto;
-}
-
-@for $i from 1 through length($swatchColors) {
-  .swatch li:nth-child(#{$i}) {
-    width: 13em;
-    font-family: Courier;
-    padding: 1.5em;
-    border-radius:0px;
-    height: 6em;
-    line-height: 120%;
-    // box-shadow:
-    margin: 2em;
-    border: 1px #ccc solid;
-    display: inline-block;
-    background-color: nth($swatchColors, $i);
-    @if nth($swatchColors, $i) == $white or nth($swatchColors, $i) == $cream{
-      color: $grey;
-    }
-    @else{
-      color: $white;
-    }
-  }
-}
-
-.usage {
-  ul{
+  img{
     text-align: center;
-  }
-  display: inline-block;
-  font-family: courier;
-  li{
-    width: 30em;
-    margin: 2em;
-    outline: 1px solid;
+    width: 20em;
     padding: 2em;
-    vertical-align: middle;
   }
 }
 
-@each $color in $swatchNames{
-  .#{$color} {
-    font-family: helvetica;
-    background-color: unquote("$"+(#{$color}));
+.whiteLogo{
+  img{
+    background-color: $grey;
   }
 }
 
-section{
-  width: 90%;
-  background-color: $white;
+h1 {
+  //width: 40%;
+  font: 3em/1.5 Oswald;
+  text-align: left;
+  color: $grey;
+  padding: 0 0 0 .3em;
+  text-transform:uppercase;
+  display: inline-block;
+  //vertical-align: top;
 }
 
-// @each $colorName in $swatchNames{
-//   .#{$colorName} {
-//     @each $color in $colorSwatches{
-//       background-color: #{$color};
-//     }
-//   }
+h2{
+  font: 1.5em Oswald;
+  text-align: left;
+  line-height: 3;
+  color: $grey;
+  text-transform:uppercase;
+
+}
+
+a {
+  display: inline-block;
+  padding: 0 1em;
+}
+
+footer {
+  line-height: 3em;
+  font-size: .8em;
+  background-color: $grey;
+  color: $white;
+  font-family: Oswald;
+  text-align: center;
+  text-transform:uppercase;
+  a{
+    color: $white;
+    text-decoration: none;
+  }
+}
+
+nav{
+  a{
+      font-family: Oswald;
+      color: $grey;
+      font-size: 0.6em;
+      text-transform:uppercase;
+      text-decoration: none;
+    }
+    &:hover{
+      color: $nav-hover;
+}
+}
+
+.font-primary{
+  font-family: $font-primary;
+}
+
+.font-links-nav{
+  font-family: $font-links-nav;
+}
+
+.font-blog-heading{
+  font-family: $font-blog-heading;
+}
+
+.time-stamp{
+  font-family: sans-serif;
+}
+
+.footer{
+  font-family: sans-serif;
+}
+
+.fonts{
+
+
+}
+
+.headings{
+
+
+}
+
+.weights{
+
+}
+
+li {
+
+}
+
+pre{
+  white-space: pre;
+}
+
+// section:last-of-type h2{
+//   color: red;
 // }
-
-

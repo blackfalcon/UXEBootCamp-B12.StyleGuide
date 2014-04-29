@@ -8,7 +8,8 @@ module.exports = function(grunt) {
         options: {
           sourceComments: "map",
           includePaths: [
-            './bower_components/bower-bourbon'
+            './bower_components/bower-bourbon',
+            './bower_components/bower-neat'
           ]
         }
       }

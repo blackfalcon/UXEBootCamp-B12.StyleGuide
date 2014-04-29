@@ -1,12 +1,37 @@
-extends layout
-
 block content
- #type
-  section
-    h2 Typography
+  section.fonts
+    h2 Fonts
     ul
-      li Body Text: Helvetica
-      li Top Navigation Links: Domine
-      li Blog Headings: Open Sans Semibold
-      li Blog time stamp: Sans serif bold
-      li Footer text: Sans serif regular
+      li.font-primary Body Text: Helvetica
+        pre= whatever
+      li.font-links-nav Top Navigation Links: Domine
+        pre= whatever
+      li.font-blog-heading Blog Headings: Open Sans Semibold
+        pre= whatever
+      li.time-stamp Blog time stamp: Sans-serif bold
+        pre= whatever
+      li.footer Footer text: Sans-serif regular
+        pre= whatever
+
+  section.headings
+    h2
+    ul
+      li Heading 1
+        pre= "<h1>Heading 1</h1>"
+      li Heading 2
+        pre= "<h2>Heading 1</h2>"
+      li Heading 3
+        pre= "<h3>Heading 1</h3>"
+      li Heading 4
+        pre= "<h4>Heading 1</h4>"
+      li Heading 5
+        pre= "<h5>Heading 1</h5>"
+      li Heading 6
+        pre= "<h6>Heading 1</h6>"
+
+  section.weights
+    h2 Font Weights
+    ul
+      li whatever
+      li whatever
+      li whatever
