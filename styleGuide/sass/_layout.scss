@@ -1,37 +1,36 @@
 header {
   width: 100%;
-  //background: $grey;
-  padding-bottom: 10px;
   position: fixed;
-}
-
-nav {
 }
 
 footer {
   width: 100%;
 }
 
-#home {
+// Navigation
+
+#nav-id{
   height: 100%;
   min-height: 100%;
+  padding-top: 6.5em;
+}
+
+#home {
+  @extend #nav-id;
 }
 
 #logo {
-  height: 100%;
-  min-height: 100%;
+  @extend #nav-id;
 }
 
 #color {
-  height: 100%;
-  min-height: 100%;
-  background: red;
-  padding-top: 100px;
+  @extend #nav-id;
 }
 
 #typography {
-  height: 100%;
-  min-height: 100%;
+  @extend #nav-id;
 }
 
+
+// Logo
 .logo {}

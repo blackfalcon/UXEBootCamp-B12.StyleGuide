@@ -7,6 +7,7 @@ body {
 
 header {
   width: 100%;
+  background: $white;
 }
 
 nav {
@@ -24,7 +25,6 @@ nav {
       color: $light-blue;
     }
   }
-
 }
 
 
@@ -33,7 +33,7 @@ h1 {
   color: $grey;
   font-family: Oswald;
   text-transform: uppercase;
-  font-size: 2em;
+  font-size: 3em;
   line-height: 1.5;
 }
 
@@ -41,9 +41,6 @@ h2 {
   @extend h1;
   font-size: 1.5em;
 }
-
-
-
 
 footer {
   background: $grey;
@@ -62,3 +59,5 @@ footer {
 a {
   text-decoration: none;
 }
+
+
