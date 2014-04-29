@@ -1,4 +1,11 @@
+// $visual-grid: true;
+// $visual-grid-color: red;
+// $visual-grid-index: front; // Show grid behind content (back) or overlay it over the content (front)
+// $visual-grid-opacity: 0.4;
+//$visual-grid-breakpoints: () !default;
+@import "fonts";
 @import "bourbon";
+<<<<<<< HEAD
 
 a{
   font-size: golden-ratio(14px,  1);
@@ -7,10 +14,13 @@ a{
 body{
   background-color: white;
 }
+=======
+@import "neat";
+>>>>>>> bdecd3fccad96e04933aebe16d34c86ac0becc8c
 @import "variables";
+@import "reset";
+@import "directives";
 //@import "mixins";
 @import "base";
 //@import "modules";
-@import "fonts";
-@import "reset";
 @import "layout";
