@@ -1,6 +1,11 @@
 header {
   width: 100%;
+  //background: $grey;
+  padding-bottom: 10px;
   position: fixed;
+}
+
+nav {
 }
 
 footer {
@@ -20,6 +25,8 @@ footer {
 #color {
   height: 100%;
   min-height: 100%;
+  background: red;
+  padding-top: 100px;
 }
 
 #typography {

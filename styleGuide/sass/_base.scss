@@ -11,16 +11,17 @@ header {
 
 nav {
   width: 100%;
-  background: teal;
+  background: $grey;
   text-align: center;
   a {
     font-family: Oswald;
-    color: $grey;
+    color: $white;
     text-transform: uppercase;
     margin: 0 5px;
+    padding: .2em;
     line-height: 2;
     &:hover {
-      color: red;
+      color: $light-blue;
     }
   }
 
