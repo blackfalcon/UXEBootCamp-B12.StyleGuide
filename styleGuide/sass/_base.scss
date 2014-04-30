@@ -10,6 +10,24 @@ body {
 header {
   width: 100%;
   background: $white;
+  @include media($desktop) {
+    background: $grey;
+    color: $grey;
+    h1{
+      color: $white;
+      display: inline;
+      background-color: pink;
+      // margin-left: 1em;
+      // @include span-columns(6);
+    }
+  }
+  @include media($tablet) {
+    background: pink;
+    color: $grey;
+    h1{
+      text-align: center;
+    }
+  }
 }
 
 nav {
@@ -46,26 +64,40 @@ footer {
 
 //-Typography--------------------
 
-h1 {
-  text-align: left;
-  color: $grey;
+.titles{
   font-family: Oswald;
   text-transform: uppercase;
+}
+
+h1 {
+  @extend .titles;
+  text-align: left;
+  color: $grey;
   font-size: 3em;
   line-height: 1.5;
 }
 
 h2 {
-  @extend h1;
+  @extend .titles;
   font-size: 1.5em;
   background-color: $nav-hover;
-  color: white;
+  color: $white;
+  padding-left: .5em;
+  line-height: 1.5em;
+  @include media($desktop) {
+    background: none;
+    color: $grey;
+  }
+  @include media($tablet) {
+    background: none;
+    color: $grey;
+  }
 }
 
 h3{
-  @extend h1;
+  @extend .titles;
   font-size: 1em;
-  margin: 1em 0 0.3em 0;
+  margin: 1em 0 0 0;
 }
 
 a {
@@ -105,7 +137,6 @@ a {
   ul {
     @include media($desktop) {
       @include span-columns(12);
-      background: red;
       text-align: center;
     }
   }
