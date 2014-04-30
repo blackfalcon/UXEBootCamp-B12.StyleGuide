@@ -1,8 +1,9 @@
 $(document).ready(function(){
 
+  $("pre").hide();
+
   $(".headings li").click(function(){
-    // $("pre").slideToggle();
-    $(this).children().slideToggle(300);
+    $(this).find("pre").slideToggle();
   });
 
 });
