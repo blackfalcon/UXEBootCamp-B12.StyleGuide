@@ -30,7 +30,7 @@ body:before {
    v2.0 | 20110126
    License: none (public domain)
 */
-html, body, div, span, applet, object, iframe, h1, h2, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -132,17 +132,6 @@ nav {
     nav a:hover {
       color: #0E819B; }
 
-h1, h2 {
-  text-align: left;
-  color: #333333;
-  font-family: Oswald;
-  text-transform: uppercase;
-  font-size: 3em;
-  line-height: 1.5; }
-
-h2 {
-  font-size: 1.5em; }
-
 footer {
   background: #333333;
   font-size: 1em;
@@ -153,19 +142,22 @@ footer {
   footer a {
     color: #ffffff; }
 
+h1, h2, h3 {
+  text-align: left;
+  color: #333333;
+  font-family: Oswald;
+  text-transform: uppercase;
+  font-size: 3em;
+  line-height: 1.5; }
+
+h2 {
+  font-size: 1.5em; }
+
+h3 {
+  font-size: 1em; }
+
 a {
   text-decoration: none; }
-
-@media screen and (min-width: 960px) {
-  .swatch ul {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 100%;
-    background: red;
-    text-align: center; }
-    .swatch ul:last-child {
-      margin-right: 0; } }
 
 .swatch li {
   border-radius: 100%;
@@ -187,6 +179,16 @@ a {
         margin: 0;
         line-height: 8;
         display: inline-block; } }
+@media screen and (min-width: 960px) {
+  .swatch ul {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    background: red;
+    text-align: center; }
+    .swatch ul:last-child {
+      margin-right: 0; } }
 
 span {
   display: table-cell;
