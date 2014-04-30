@@ -1,16 +1,23 @@
 // $visual-grid: true;
-// $visual-grid-color: red;
-// $visual-grid-index: front; // Show grid behind content (back) or overlay it over the content (front)
+// $visual-grid-color: pink;
+// $visual-grid-index: back; // Show grid behind content (back) or overlay it over the content (front)
 // $visual-grid-opacity: 0.4;
 // $visual-grid-breakpoints: () !default;
 @import "fonts";
 @import "bourbon";
 @import "neat";
+
 @import "variables";
+@import "client";
+
 @import "reset";
 @import "directives";
 //@import "mixins";
 @import "base";
 //@import "modules";
 @import "layout";
+
+@import "client-typography";
+
+
 

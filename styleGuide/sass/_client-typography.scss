@@ -1,0 +1,69 @@
+.fonts li{
+  margin: 0.5em 0;
+}
+
+.font-primary{
+  font-family: $font-primary;
+}
+
+.font-links-nav{
+  font-family: $font-links-nav;
+}
+
+.font-blog-heading{
+  font-family: $font-blog-heading;
+}
+
+.time-stamp{
+  font-family: $font-secondary;
+}
+
+.footer{
+  font-family: $font-secondary;
+}
+
+.headings{
+  font-family: $font-primary;
+  text-transform: lowercase;
+  background-color: $white;
+  color: $grey;
+}
+
+.h1{
+  @extend .headings;
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+.h2{
+  @extend .headings;
+  font-size: 1.5em;
+  margin: .75em 0;
+}
+
+.h3{
+  @extend .headings;
+  font-size: 1.17em;
+  margin: .83em 0;
+}
+
+.h4{
+  @extend .headings;
+  font-size: 1em;
+  margin: 1.5em 0;
+}
+
+.h5{
+  @extend .headings;
+  font-size: .83em;
+  margin: 1.5em 0;
+}
+
+.h6{
+  @extend .headings;
+  font-size: .75em;
+  margin: 1.67em 0;
+}
+
+
+
