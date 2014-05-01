@@ -5,6 +5,6 @@ $font-body: 'helvetica';
 // Media Queries
 
 // Bourbon Neat Breakpoints
-$mobile: new-breakpoint(min-width 320px);
+$mobile: new-breakpoint(min-width 400px);
 $tablet: new-breakpoint(min-width 720px max-width 959px);
 $desktop: new-breakpoint(min-width 960px);
