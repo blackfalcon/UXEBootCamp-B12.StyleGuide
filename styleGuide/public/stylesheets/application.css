@@ -321,6 +321,49 @@ section.katie {
   font-size: 0.75em;
   margin: 1.67em 0; }
 
+.weights .domine-400-none {
+  margin: 1em 0;
+  background-color: red;
+  font-family: domine;
+  font-weight: 400;
+  font-style: none; }
+.weights .domine-700-none {
+  margin: 1em 0;
+  background-color: red;
+  font-family: domine;
+  font-weight: 700;
+  font-style: none; }
+.weights .open-sans-400-italic {
+  margin: 1em 0;
+  background-color: red;
+  font-family: open-sans;
+  font-weight: 400;
+  font-style: italic; }
+.weights .open-sans-400-italic {
+  margin: 1em 0;
+  background-color: red;
+  font-family: open-sans;
+  font-weight: 400;
+  font-style: italic; }
+.weights .open-sans-700-italic {
+  margin: 1em 0;
+  background-color: red;
+  font-family: open-sans;
+  font-weight: 700;
+  font-style: italic; }
+.weights .open-sans-400-none {
+  margin: 1em 0;
+  background-color: red;
+  font-family: open-sans;
+  font-weight: 400;
+  font-style: none; }
+.weights .open-sans-700-none {
+  margin: 1em 0;
+  background-color: red;
+  font-family: open-sans;
+  font-weight: 700;
+  font-style: none; }
+
 pre {
   margin: 2em 0;
   text-align: center;
