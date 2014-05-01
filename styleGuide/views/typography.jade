@@ -1,6 +1,7 @@
 block content
   h2 Typography
   section
+    p Click text to see code sample.
     h3 Fonts
     ul.fonts
       li.font-primary Body Text: Helvetica
@@ -50,12 +51,24 @@ block content
   section
     h3 Font Weights
     ul.weights
-      li.domine-400-none Domine 400
-      li.domine-700-none Domine 700
+      li.domine-400-normal Domine 400
+        pre
+          code= "font-family: Domine;\nfont-weight: 400;"
+      li.domine-700-normal Domine 700
+        pre
+            code= "font-family: Domine;\nfont-weight: 700;"
       li.open-sans-400-italic Open Sans 400 Italic
+        pre
+          code= "font-family: Open-Sans;\nfont-weight: 400;\nfont-style: italic;"
       li.open-sans-700-italic Open Sans 700 Italic
-      li.open-sans-400-none Open Sans 400
-      li.open-sans-700-none Open Sans 700
+        pre
+          code= "font-family: Open-Sans;\nfont-weight: 700;\nfont-style: italic;"
+      li.open-sans-400-normal Open Sans 400
+        pre
+          code= "font-family: Open-Sans;\nfont-weight: 400;"
+      li.open-sans-700-normal Open Sans 700
+        pre
+          code= "font-family: Open-Sans;\nfont-weight: 700;"
 
 
 

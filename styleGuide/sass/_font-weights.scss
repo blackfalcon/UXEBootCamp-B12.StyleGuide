@@ -1,12 +1,12 @@
 
 $type:
-  (domine, 400, none),
-  (domine, 700, none),
+  (domine, 400, normal),
+  (domine, 700, normal),
   (open-sans, 400, italic),
   (open-sans, 400, italic),
   (open-sans, 700, italic),
-  (open-sans, 400, none),
-  (open-sans, 700, none);
+  (open-sans, 400, normal),
+  (open-sans, 700, normal);
 
 .weights {
   @each $val in $type {
@@ -16,7 +16,6 @@ $type:
 
     .#{$font}-#{$weight}-#{$style} {
       margin: 1em 0;
-      background-color: red;
       font-family: #{$font};
       font-weight: #{$weight};
       font-style: #{$style};
@@ -24,46 +23,3 @@ $type:
   }
 }
 
-
-
-// @for $i from 1 through 7 {
-//   .weights li:nth-child(#{$i}) {
-
-//   @each $val in $type {
-//     $font: nth($val, 1);
-//     $weight: nth($val, 2);
-//     $style: nth($val, 3);
-
-//     .#{$font}-#{$weight} {
-//       font: #{$style} #{$weight} #{$font};
-//     }
-//   }
-
-
-//   }
-// }
-
-
-
-
-
-
-// @each $font in Open-Sans{
-//   .#{$font}-font {
-//     @each $weight in 400italic,600italic,700italic,800italic,400,700,600,800{
-//       font-weight: #{$weight};
-//     }
-//   }
-// }
-
-
-// @each $val in $type {
-//   $font: nth($val, 1);
-//   $weight: nth($val, 2);
-//   $style: nth($val, 3);
-
-//   .#{$font}-#{$weight} {
-//     font: #{$style} #{$weight} #{$font};
-//   }
-
-// }

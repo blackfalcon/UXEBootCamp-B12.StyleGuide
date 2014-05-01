@@ -54,18 +54,21 @@
   @extend .headings;
   font-size: 1em;
   margin: 1.5em 0;
+  text-decoration: line-through;
 }
 
 .h5{
   @extend .headings;
   font-size: .83em;
   margin: 1.5em 0;
+  text-decoration: line-through;
 }
 
 .h6{
   @extend .headings;
   font-size: .75em;
   margin: 1.67em 0;
+  text-decoration: line-through;
 }
 
 

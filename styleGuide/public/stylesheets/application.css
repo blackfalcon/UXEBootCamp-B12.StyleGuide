@@ -108,7 +108,8 @@ header {
 nav {
   width: 100%;
   background: #333333;
-  text-align: center; }
+  text-align: center;
+  font-weight: 100; }
   nav a {
     font-family: Oswald;
     color: #ffffff;
@@ -156,6 +157,11 @@ h1 {
   color: #333333;
   font-size: 3em;
   line-height: 1.5; }
+  h1 a {
+    color: #333333; }
+    @media screen and (min-width: 960px) {
+      h1 a {
+        color: #ffffff; } }
 
 h2 {
   font-size: 1.5em;
@@ -174,6 +180,10 @@ h2 {
 h3 {
   font-size: 1em;
   margin: 1em 0 0 0; }
+
+p {
+  font-family: courier;
+  margin-top: 1em; }
 
 a {
   text-decoration: none; }
@@ -345,77 +355,78 @@ section {
 
 .h4 {
   font-size: 1em;
-  margin: 1.5em 0; }
+  margin: 1.5em 0;
+  text-decoration: line-through; }
 
 .h5 {
   font-size: 0.83em;
-  margin: 1.5em 0; }
+  margin: 1.5em 0;
+  text-decoration: line-through; }
 
 .h6 {
   font-size: 0.75em;
-  margin: 1.67em 0; }
+  margin: 1.67em 0;
+  text-decoration: line-through; }
 
-.weights .domine-400-none {
+.weights .domine-400-normal {
   margin: 1em 0;
-  background-color: red;
   font-family: domine;
   font-weight: 400;
-  font-style: none; }
-.weights .domine-700-none {
+  font-style: normal; }
+.weights .domine-700-normal {
   margin: 1em 0;
-  background-color: red;
   font-family: domine;
   font-weight: 700;
-  font-style: none; }
+  font-style: normal; }
 .weights .open-sans-400-italic {
   margin: 1em 0;
-  background-color: red;
   font-family: open-sans;
   font-weight: 400;
   font-style: italic; }
 .weights .open-sans-400-italic {
   margin: 1em 0;
-  background-color: red;
   font-family: open-sans;
   font-weight: 400;
   font-style: italic; }
 .weights .open-sans-700-italic {
   margin: 1em 0;
-  background-color: red;
   font-family: open-sans;
   font-weight: 700;
   font-style: italic; }
-.weights .open-sans-400-none {
+.weights .open-sans-400-normal {
   margin: 1em 0;
-  background-color: red;
   font-family: open-sans;
   font-weight: 400;
-  font-style: none; }
-.weights .open-sans-700-none {
+  font-style: normal; }
+.weights .open-sans-700-normal {
   margin: 1em 0;
-  background-color: red;
   font-family: open-sans;
   font-weight: 700;
-  font-style: none; }
+  font-style: normal; }
 
 pre {
   margin: 2em 0;
-  text-align: center;
   white-space: pre-wrap;
   white-space: -moz-pre-wrap;
   white-space: -o-pre-wrap; }
-  @media screen and (min-width: 960px) {
-    pre {
-      text-align: left; } }
-  @media screen and (min-width: 720px) and (max-width: 959px) {
-    pre {
-      text-align: left; } }
   pre code {
     background-color: #f8f8f8;
     font-family: courier;
     color: #606060;
     padding: 1em 3em;
     border: 1px #e0e0e0 solid;
-    display: block; }
+    display: block;
+    line-height: 1.2;
+    font-weight: normal;
+    font-style: normal; }
+    @media screen and (min-width: 960px) {
+      pre code {
+        text-align: left; } }
+    @media screen and (min-width: 720px) and (max-width: 959px) {
+      pre code {
+        text-align: left; } }
+
+.weights code {
+  text-align: left; }
 
 /*# sourceMappingURL=application.css.map */

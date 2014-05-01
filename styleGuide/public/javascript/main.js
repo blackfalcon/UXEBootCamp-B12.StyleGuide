@@ -6,6 +6,10 @@ $(document).ready(function(){
     $(this).find("pre").slideToggle();
   });
 
+  $(".weights li").click(function(){
+    $(this).find("pre").slideToggle();
+  });
+
   $(".fonts li").click(function(){
     $(this).find("pre").slideToggle();
   });
