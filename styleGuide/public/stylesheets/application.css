@@ -10,7 +10,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -81,6 +81,20 @@ body {
 header {
   width: 100%;
   background: #ffffff; }
+  @media screen and (min-width: 960px) {
+    header {
+      background: #333333;
+      color: #333333; }
+      header h1 {
+        color: #ffffff;
+        display: inline;
+        background-color: pink; } }
+  @media screen and (min-width: 720px) and (max-width: 959px) {
+    header {
+      background: pink;
+      color: #333333; }
+      header h1 {
+        text-align: center; } }
 
 nav {
   width: 100%;
@@ -106,22 +120,34 @@ footer {
   footer a {
     color: #ffffff; }
 
-h1, h2, h3 {
+.titles, h1, h2, h3 {
+  font-family: Oswald;
+  text-transform: uppercase; }
+
+h1 {
   text-align: left;
   color: #333333;
-  font-family: Oswald;
-  text-transform: uppercase;
   font-size: 3em;
   line-height: 1.5; }
 
 h2 {
   font-size: 1.5em;
   background-color: #669999;
-  color: white; }
+  color: #ffffff;
+  padding-left: 0.5em;
+  line-height: 1.5em; }
+  @media screen and (min-width: 960px) {
+    h2 {
+      background: none;
+      color: #333333; } }
+  @media screen and (min-width: 720px) and (max-width: 959px) {
+    h2 {
+      background: none;
+      color: #333333; } }
 
 h3 {
   font-size: 1em;
-  margin: 1em 0 0.3em 0; }
+  margin: 1em 0 0 0; }
 
 a {
   text-decoration: none; }
@@ -154,7 +180,6 @@ a {
     display: block;
     margin-right: 2.35765%;
     width: 100%;
-    background: red;
     text-align: center; }
     .swatch ul:last-child {
       margin-right: 0; } }
@@ -219,6 +244,14 @@ img {
 footer {
   width: 100%; }
 
+section {
+  width: 90%;
+  margin: 0 auto; }
+
+section .katie {
+  width: 100%;
+  margin: 0; }
+
 .fonts li {
   margin: 0.5em 0; }
 
@@ -249,7 +282,8 @@ footer {
 
 .h2 {
   font-size: 1.5em;
-  margin: 0.75em 0; }
+  margin: 0.75em 0;
+  padding-left: 0; }
 
 .h3 {
   font-size: 1.17em;
