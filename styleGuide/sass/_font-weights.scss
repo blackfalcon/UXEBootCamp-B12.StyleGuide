@@ -1,0 +1,25 @@
+
+$type:
+  (domine, 400, normal),
+  (domine, 700, normal),
+  (open-sans, 400, italic),
+  (open-sans, 400, italic),
+  (open-sans, 700, italic),
+  (open-sans, 400, normal),
+  (open-sans, 700, normal);
+
+.weights {
+  @each $val in $type {
+    $font: nth($val, 1);
+    $weight: nth($val, 2);
+    $style: nth($val, 3);
+
+    .#{$font}-#{$weight}-#{$style} {
+      margin: 1em 0;
+      font-family: #{$font};
+      font-weight: #{$weight};
+      font-style: #{$style};
+    }
+  }
+}
+

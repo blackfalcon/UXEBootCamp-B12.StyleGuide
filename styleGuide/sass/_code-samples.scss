@@ -1,15 +1,8 @@
 pre{
   margin: 2em 0;
-  text-align: center;
   white-space: pre-wrap;
   white-space: -moz-pre-wrap;
   white-space: -o-pre-wrap;
-  @include media($desktop){
-    text-align: left;
-  }
-  @include media($tablet){
-    text-align: left;
-  }
   code{
     background-color: #f8f8f8;
     font-family: courier;
@@ -17,5 +10,18 @@ pre{
     padding: 1em 3em;
     border: 1px #e0e0e0 solid;
     display: block;
+    line-height: 1.2;
+    font-weight: normal;
+    font-style: normal;
+    @include media($desktop){
+      text-align: left;
+    }
+    @include media($tablet){
+      text-align: left;
+    }
   }
+}
+
+.weights code{
+  text-align: left;
 }
