@@ -173,9 +173,7 @@ h2 {
   @media screen and (min-width: 960px) {
     h2 {
       border: 0; } }
-  @media screen and (min-width: 720px) and (max-width: 959px) {
-    h2 {
-      border: 0; } }
+  @media screen and (min-width: 720px) and (max-width: 959px) { }
 
 h3 {
   font-size: 1em;
