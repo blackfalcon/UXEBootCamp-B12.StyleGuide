@@ -87,8 +87,9 @@ header {
       color: #333333; }
       header h1 {
         color: #ffffff;
-        display: inline;
-        background-color: pink; } }
+        display: inline-block;
+        background-color: pink;
+        margin-left: 1em; } }
   @media screen and (min-width: 720px) and (max-width: 959px) {
     header {
       background: pink;
@@ -100,6 +101,10 @@ nav {
   width: 100%;
   background: #333333;
   text-align: center; }
+  @media screen and (min-width: 960px) {
+    nav {
+      background: teal;
+      color: #333333; } }
   nav a {
     font-family: Oswald;
     color: #ffffff;
