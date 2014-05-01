@@ -1,0 +1,534 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,800italic,400,700,600,800);@import url(http://fonts.googleapis.com/css?family=Domine:400,700);@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.swatch li:nth-child(1) {
+	background-color: #0A466D;
+	color: #ffffff;
+}
+
+.swatch li:nth-child(2) {
+	background-color: #0E819B;
+	color: #ffffff;
+}
+
+.swatch li:nth-child(3) {
+	background-color: #591710;
+	color: #ffffff;
+}
+
+.swatch li:nth-child(4) {
+	background-color: #b02220;
+	color: #ffffff;
+}
+
+.swatch li:nth-child(5) {
+	background-color: #f8ebc9;
+	color: #333333;
+}
+
+.swatch li:nth-child(6) {
+	background-color: #ffffff;
+	color: #333333;
+}
+
+.swatch li:nth-child(7) {
+	background-color: #3c3231;
+	color: #ffffff;
+}
+
+.swatch li:nth-child(8) {
+	background-color: #1c1717;
+	color: #ffffff;
+}
+
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+body {
+	background: #ffffff;
+	font-size: 1em;
+}
+
+header {
+	width: 100%;
+	background: #ffffff;
+}
+
+nav {
+	width: 100%;
+	background: #333333;
+	text-align: center;
+}
+
+nav a {
+	font-family: Oswald;
+	color: #ffffff;
+	text-transform: uppercase;
+	margin: 0 5px;
+	padding: 0.2em;
+	line-height: 2.5;
+}
+
+nav a:hover {
+	color: #999;
+}
+
+footer {
+	background: #333333;
+	font-size: 1em;
+	line-height: 2;
+	text-align: center;
+	font-family: Oswald;
+	text-transform: uppercase;
+}
+
+footer a {
+	color: #ffffff;
+}
+
+.titles,
+h1,
+h2,
+h3 {
+	font-family: Oswald;
+	text-transform: uppercase;
+}
+
+h1 {
+	text-align: left;
+	color: #333333;
+	font-size: 3em;
+	line-height: 1.5;
+}
+
+h2 {
+	background-color: #ffffff;
+	color: #1c1717;
+	text-align: center;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	font-size: 1.3em;
+	line-height: 1.6;
+}
+
+h3 {
+	font-size: 1em;
+	margin: 1em 0 0 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.swatch li {
+	border-radius: 100%;
+	height: 9em;
+	width: 9em;
+	text-align: center;
+	font-family: Courier;
+	border: 1px #ccc solid;
+	display: inline-block;
+	margin: 0.5em;
+}
+
+span {
+	display: table-cell;
+	vertical-align: middle;
+	line-height: 1.5;
+	font-size: 1em;
+	padding: 10px;
+}
+
+header {
+	width: 100%;
+	position: fixed;
+}
+
+.page-wrapper {
+	*zoom: 1;
+	max-width: 68em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.page-wrapper:before,
+.page-wrapper:after {
+	content: " ";
+	display: table;
+}
+
+.page-wrapper:after {
+	clear: both;
+}
+
+#nav-id,
+#home,
+#logo,
+#color,
+#typography {
+	height: 100%;
+	min-height: 100%;
+	padding-top: 6.5em;
+	clear: both;
+}
+
+.white-logo {
+	background-color: #ccc;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+footer {
+	width: 100%;
+}
+
+section {
+	width: 90%;
+	margin: 0 auto;
+}
+
+section.katie {
+	width: 100%;
+	margin: 0;
+}
+
+.fonts li {
+	margin: 0.5em 0;
+}
+
+.font-primary {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.font-links-nav {
+	font-family: 'Domine';
+}
+
+.font-blog-heading {
+	font-family: 'Open Sans';
+}
+
+.time-stamp {
+	font-family: sans-serif;
+}
+
+.footer {
+	font-family: sans-serif;
+}
+
+.headings,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+	font-family: Helvetica, Arial, sans-serif;
+	text-transform: lowercase;
+	background-color: #ffffff;
+	color: #333333;
+}
+
+.h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}
+
+.h2 {
+	font-size: 1.5em;
+	margin: 0.75em 0;
+	padding-left: 0;
+}
+
+.h3 {
+	font-size: 1.17em;
+	margin: 0.83em 0;
+}
+
+.h4 {
+	font-size: 1em;
+	margin: 1.5em 0;
+}
+
+.h5 {
+	font-size: 0.83em;
+	margin: 1.5em 0;
+}
+
+.h6 {
+	font-size: 0.75em;
+	margin: 1.67em 0;
+}
+
+/*# sourceMappingURL=application.css.map */
+
+@media screen and (min-width: 720px) and (max-width: 959px) {
+
+header {
+	background: pink;
+	color: #333333;
+}
+
+header h1 {
+	text-align: center;
+}
+
+h2 {
+	background: none;
+	color: #333333;
+}
+
+figure {
+	float: left;
+	display: block;
+	margin-right: 2.35765%;
+	width: 31.76157%;
+}
+
+figure:last-child {
+	margin-right: 0;
+}
+
+}
+
+@media screen and (min-width: 960px) {
+
+header {
+	background: #333333;
+	height: 6.5em;
+}
+
+header h1 {
+	color: #ffffff;
+	display: inline-block;
+	background-color: #f8ebc9;
+	text-align: left;
+	font-size: 3em;
+	line-height: 2.2;
+	float: left;
+	display: block;
+	margin-right: 2.35765%;
+	width: 31.76157%;
+	margin-left: 8.5298%;
+	padding-left: 30px;
+}
+
+header h1:last-child {
+	margin-right: 0;
+}
+
+nav {
+	float: left;
+	display: block;
+	margin-right: 2.35765%;
+	width: 31.76157%;
+	margin-left: 25.58941%;
+	background: teal;
+	color: #333333;
+	height: 6.5em;
+	text-align: right;
+	padding-right: 30px;
+}
+
+nav:last-child {
+	margin-right: 0;
+}
+
+nav a {
+	font-size: 1.3em;
+	line-height: 4;
+	font-weight: 200;
+	color: silver;
+	padding: 0 0.5em;
+	font-style: italic;
+	text-transform: lowercase;
+}
+
+h2 {
+	background: none;
+	color: #333333;
+}
+
+.swatch li {
+	border-radius: 0;
+	height: 8em;
+	width: 13em;
+	float: none;
+	display: inline-block;
+}
+
+.swatch li span {
+	padding: 0;
+	margin: 0;
+	line-height: 8;
+	display: inline-block;
+}
+
+.swatch ul {
+	float: left;
+	display: block;
+	margin-right: 2.35765%;
+	width: 100%;
+	text-align: center;
+}
+
+.swatch ul:last-child {
+	margin-right: 0;
+}
+
+figure {
+	float: left;
+	display: block;
+	margin-right: 2.35765%;
+	width: 31.76157%;
+}
+
+figure:last-child {
+	margin-right: 0;
+}
+
+}
+
