@@ -130,18 +130,17 @@ h1 {
 
 h2 {
   font-size: 1.5em;
-  background-color: #888;
-  color: #ffffff;
+  color: #333333;
+  border-top: 0.125em solid #333333;
+  border-bottom: 0.125em solid #333333;
   padding-left: 0.5em;
   line-height: 1.5em; }
   @media screen and (min-width: 960px) {
     h2 {
-      background: none;
-      color: #333333; } }
+      border: 0; } }
   @media screen and (min-width: 720px) and (max-width: 959px) {
     h2 {
-      background: none;
-      color: #333333; } }
+      border: 0; } }
 
 h3 {
   font-size: 1em;
@@ -303,7 +302,8 @@ section.katie {
 .h2 {
   font-size: 1.5em;
   margin: 0.75em 0;
-  padding-left: 0; }
+  padding-left: 0;
+  border: 0; }
 
 .h3 {
   font-size: 1.17em;
