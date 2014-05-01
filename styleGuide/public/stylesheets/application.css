@@ -84,13 +84,21 @@ header {
   @media screen and (min-width: 960px) {
     header {
       background: #333333;
-      color: #333333; }
+      height: 6.5em; }
       header h1 {
         color: #ffffff;
-        display: inline;
         display: inline-block;
-        background-color: pink;
-        margin-left: 1em; } }
+        text-align: left;
+        line-height: 2.2;
+        font-size: 3em;
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 31.76157%;
+        margin-left: 8.5298%;
+        padding-left: 30px; }
+        header h1:last-child {
+          margin-right: 0; } }
   @media screen and (min-width: 720px) and (max-width: 959px) {
     header {
       color: #333333; }
@@ -101,10 +109,6 @@ nav {
   width: 100%;
   background: #333333;
   text-align: center; }
-  @media screen and (min-width: 960px) {
-    nav {
-      background: teal;
-      color: #333333; } }
   nav a {
     font-family: Oswald;
     color: #ffffff;
@@ -114,6 +118,24 @@ nav {
     line-height: 2; }
     nav a:hover {
       color: #888; }
+  @media screen and (min-width: 960px) {
+    nav {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%;
+      margin-left: 17.05961%;
+      color: #333333;
+      height: 6.5em;
+      text-align: right;
+      padding-right: 30px; }
+      nav:last-child {
+        margin-right: 0; }
+      nav a {
+        font-size: 1.3em;
+        line-height: 4;
+        color: #ffffff;
+        padding: 0 0.5em; } }
 
 footer {
   background: #333333;
