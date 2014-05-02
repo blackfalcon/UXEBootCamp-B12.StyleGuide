@@ -94,9 +94,9 @@ header {
         float: left;
         display: block;
         margin-right: 2.35765%;
-        width: 31.76157%;
+        width: 40.29137%;
         margin-left: 8.5298%;
-        padding-left: 1.875em; }
+        padding-left: 30px; }
         header h1:last-child {
           margin-right: 0; } }
   @media screen and (min-width: 45em) and (max-width: 59.9375em) {
@@ -125,11 +125,11 @@ nav {
       display: block;
       margin-right: 2.35765%;
       width: 31.76157%;
-      margin-left: 17.05961%;
+      margin-left: 8.5298%;
       color: #333333;
       height: 6.5em;
       text-align: right;
-      padding-right: 1.875em; }
+      padding-right: 30px; }
       nav:last-child {
         margin-right: 0; }
       nav a {
@@ -173,9 +173,7 @@ h2 {
   @media screen and (min-width: 60em) {
     h2 {
       border: 0; } }
-  @media screen and (min-width: 45em) and (max-width: 59.9375em) {
-    h2 {
-      border: 0; } }
+  @media screen and (min-width: 45em) and (max-width: 59.9375em) { }
 
 h3 {
   font-size: 1em;
@@ -185,7 +183,6 @@ p {
   font-family: courier;
   font-size: 0.965em;
   margin-top: 1em;
-  background: yellow;
   display: inline-block;
   padding: 0.2em;
   outline: 1px dotted #333333; }
@@ -308,11 +305,12 @@ header {
 
 img {
   width: 100%;
-  height: auto; }
+  height: auto;
+  margin-top: 2em; }
 
 footer {
   width: 100%;
-  margin-top: 10em; }
+  margin-top: 2em; }
 
 section {
   width: 90%;
@@ -337,7 +335,7 @@ section {
   font-family: sans-serif; }
 
 .headings, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans';
   text-transform: lowercase;
   background-color: #ffffff;
   color: #333333; }

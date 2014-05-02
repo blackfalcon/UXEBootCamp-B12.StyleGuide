@@ -19,9 +19,9 @@ header {
       text-align: left;
       line-height: 2.2;
       font-size: 3em;
-      @include span-columns(4);
+      @include span-columns(5);
       @include shift(1);
-      padding-left: em(30);
+      padding-left: 30px;
     }
   }
   @include media($tablet) {
@@ -50,11 +50,11 @@ nav {
   }
   @include media($desktop) {
     @include span-columns(4);
-    @include shift(2);
+    @include shift(1);
     color: $grey;
     height: 6.5em;
     text-align: right;
-    padding-right: em(30);
+    padding-right: 30px;
     a{
       font-size: 1.3em;
       line-height: 4;
@@ -128,7 +128,7 @@ p{
   font-family: courier;
   font-size: .965em;
   margin-top: 1em;
-  background: yellow;
+  // background: yellow;
   display: inline-block;
   padding: .2em;
   outline: 1px dotted $grey;
