@@ -18,5 +18,10 @@
   },
   "devDependencies": {
     "grunt-contrib-watch": "^0.6.1"
+  },
+  "main": "app.js",
+    "engines": {
+      "node": "0.10.26",
+      "npm": "1.4.3"
   }
 }
