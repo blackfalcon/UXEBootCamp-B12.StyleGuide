@@ -184,7 +184,11 @@ h3 {
 p {
   font-family: courier;
   font-size: 0.965em;
-  margin-top: 1em; }
+  margin-top: 1em;
+  background: yellow;
+  display: inline-block;
+  padding: 0.2em;
+  outline: 1px dotted #333333; }
 
 a {
   text-decoration: none; }
@@ -256,7 +260,6 @@ span {
   line-height: 1.5;
   font-size: 1em;
   padding: 10px; }
-
 
 header {
   width: 100%;
