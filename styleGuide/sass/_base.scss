@@ -113,15 +113,12 @@ h2 {
   @include media($desktop) {
     border: 0;
   }
-  @include media($tablet) {
-
-  }
 }
 
 h3{
   @extend .titles;
   font-size: 1em;
-  margin: 1em 0 0 0;
+  margin: 2.5em 0 0 0;
 }
 
 p{

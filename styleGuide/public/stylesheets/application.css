@@ -173,11 +173,10 @@ h2 {
   @media screen and (min-width: 60em) {
     h2 {
       border: 0; } }
-  @media screen and (min-width: 45em) and (max-width: 59.9375em) { }
 
 h3 {
   font-size: 1em;
-  margin: 1em 0 0 0; }
+  margin: 2.5em 0 0 0; }
 
 p {
   font-family: courier;
