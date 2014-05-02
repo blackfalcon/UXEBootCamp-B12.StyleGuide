@@ -21,7 +21,7 @@ header {
       font-size: 3em;
       @include span-columns(4);
       @include shift(1);
-      padding-left: 30px;
+      padding-left: em(30);
     }
   }
   @include media($tablet) {
@@ -37,12 +37,11 @@ nav {
   background: $grey;
   text-align: center;
   font-weight: 100;
-  // letter-spacing: 1px;
   a {
     font-family: Oswald;
     color: $white;
     text-transform: uppercase;
-    margin: 0 5px;
+    margin: 0 em(5);
     padding: .2em;
     line-height: 2;
     &:hover {
@@ -55,7 +54,7 @@ nav {
     color: $grey;
     height: 6.5em;
     text-align: right;
-    padding-right: 30px;
+    padding-right: em(30);
     a{
       font-size: 1.3em;
       line-height: 4;
@@ -129,6 +128,10 @@ p{
   font-family: courier;
   font-size: .965em;
   margin-top: 1em;
+  background: yellow;
+  display: inline-block;
+  padding: .2em;
+  outline: 1px dotted $grey;
 }
 
 a {
@@ -213,10 +216,10 @@ span {
   padding: 10px;
 }
 
-.headings ul li{
-  // background-color: red;
-  pre{
+// .headings ul li{
+//   // background-color: red;
+//   pre{
 
-  }
-}
+//   }
+// }
 
