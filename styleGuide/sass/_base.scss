@@ -21,7 +21,7 @@ header {
       font-size: 3em;
       @include span-columns(4);
       @include shift(1);
-      padding-left: 30px;
+      padding-left: em(30);
     }
   }
   @include media($tablet) {
@@ -55,7 +55,7 @@ nav {
     color: $grey;
     height: 6.5em;
     text-align: right;
-    padding-right: 30px;
+    padding-right: em(30);
     a{
       font-size: 1.3em;
       line-height: 4;
